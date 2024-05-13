@@ -5,7 +5,7 @@ interface InputProps {
   value: number
   min: number
   max: number
-  sendDataToParent: (data: any) => void
+  sendDataToParent: (data:any)=>void
 }
 
 export default function InputButton(props: InputProps) {
@@ -17,7 +17,7 @@ export default function InputButton(props: InputProps) {
 
     if (value >= props.min && value <= props.max) {
       setValue(value);
-      props.sendDataToParent(value);
+    props.sendDataToParent(value);
     } else {
       alert(`Insira um numero entre ${props.min} e ${props.max}`);
     }
