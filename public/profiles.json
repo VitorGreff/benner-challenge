@@ -1,0 +1,40 @@
+{
+  "profiles": [
+    {
+      "Nome": "Pipoca",
+      "Alimento": "Pipoca (de micro-ondas)",
+      "tempo": "3 minutos",
+      "potência": "7",
+      "caractere": "%"
+    },
+    {
+      "Nome": "Leite",
+      "Alimento": "Leite",
+      "tempo": "5 minutos",
+      "potência": "5",
+      "caractere": "$"
+    },
+    {
+      "Nome": "Carnes de boi",
+      "Alimento": "Carne em pedaço ou fatias",
+      "tempo": "14 minutos",
+      "potência": "4",
+      "caractere": "#"
+    },
+    {
+      "Nome": "Frango",
+      "Alimento": "Frango (qualquer corte)",
+      "tempo": "8 minutos",
+      "potência": "7",
+      "caractere": "@"
+    },
+    {
+      "Nome": "Feijão",
+      "Alimento": "Feijão congelado",
+      "tempo": "8 minutos",
+      "potência": "9",
+      "caractere": "!"
+    }
+  ]
+}
+
