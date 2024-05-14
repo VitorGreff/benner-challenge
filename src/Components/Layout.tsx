@@ -77,17 +77,6 @@ export default function Layout() {
         </button>
       </div>
 
-      <div className='flex flex-row justify-center items-center'>
-        <button className='bg-indigo-500 flex flex-col justify-center items-center h-10 w-[200px] rounded-md font-black'
-          onClick={() => {
-            setTempo((tempo) => Math.min(tempo + 30, 120))
-            setPotencia(10)
-            setPausado(false);
-          }}>
-          Inicio Rapido
-        </button>
-      </div>
-
       <button className='bg-red-600 flex flex-col justify-center items-center h-10 w-[200px] rounded-md text-lg font-black'
         onClick={() => {
           if (pausado) {
